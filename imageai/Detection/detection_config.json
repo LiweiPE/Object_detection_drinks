@@ -1,0 +1,45 @@
+{
+    "labels" : [
+        "Asamu_milktea",
+        "Beibingyang",
+        "C100_juice",
+        "Dongfang_greentea",
+        "Harbin_beer",
+        "HongNiu",
+        "Kangshifu_juice",
+        "Maidong_lime",
+        "Wanglaoji",
+        "Wangzi_milk",
+        "cucumber_soda",
+        "orange_juice",
+        "pepsi",
+        "pepsi_330",
+        "water"
+    ],
+    "anchors" : [
+        [
+            83,
+            204,
+            86,
+            104,
+            154,
+            312
+        ],
+        [
+            38,
+            50,
+            49,
+            81,
+            51,
+            143
+        ],
+        [
+            21,
+            32,
+            23,
+            66,
+            32,
+            102
+        ]
+    ]
+}
