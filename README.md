@@ -59,6 +59,9 @@ video_detector.detectObjectsFromVideo(input_file_path="01é¡æƒ°î—Šé
                                           minimum_percentage_probability=50,
                                           log_progress=True)
 ```
+### Images samples detection
+
+![alt text](https://github.com/LiweiPE/Object_detection_drinks/blob/main/Images_detected/orange_juice.jpg)
 
 ### Citation
 @misc {ImageAI,
