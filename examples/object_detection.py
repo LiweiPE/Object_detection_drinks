@@ -1,14 +1,3 @@
-from imageai.Detection import ObjectDetection
-import os
-
-execution_path = os.getcwd()
-
-detector = ObjectDetection()
-detector.setModelTypeAsRetinaNet()
-detector.setModelPath( os.path.join(execution_path , "resnet50_coco_best_v2.0.1.h5")) # Download the model via this link https://github.com/OlafenwaMoses/ImageAI/releases/tag/1.0
-detector.loadModel()
-detections = detector.detectObjectsFromImage(input_image=os.path.join(execution_path , "2.jpg"), output_image_path=os.path.join(execution_path , "2_detected.jpg"), minimum_percentage_probability=40)
-
-for eachObject in detections:
-    print(eachObject["name"] , " : ", eachObject["percentage_probability"], " : ", eachObject["box_points"] )
-    print("--------------------------------")
+version https://git-lfs.github.com/spec/v1
+oid sha256:c10040a95de3013f8c57737a74040ca1b15a8fb3b0d29d72d7098c6de13dddb3
+size 736

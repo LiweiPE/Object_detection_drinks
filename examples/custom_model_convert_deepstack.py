@@ -1,16 +1,3 @@
-from imageai.Prediction.Custom import CustomImagePrediction
-import os
-
-execution_path = os.getcwd()
-
-
-predictor = CustomImagePrediction()
-predictor.setModelTypeAsResNet()
-predictor.setModelPath(model_path=os.path.join(execution_path, "idenprof_resnet.h5")) # Download the model via this link https://github.com/OlafenwaMoses/ImageAI/releases/tag/models-v3
-predictor.setJsonPath(model_json=os.path.join(execution_path, "idenprof.json"))
-predictor.loadModel(num_objects=10)
-predictor.save_model_for_deepstack(new_model_folder= os.path.join(execution_path, "deepstack_model"), new_model_name="idenprof_resnet_deepstack.h5")
-
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:242d99a90e6063a36f9366c5716ba2219c4207fb07d2fb9558e3cf35a556a7d7
+size 625

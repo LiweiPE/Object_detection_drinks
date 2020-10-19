@@ -1,15 +1,3 @@
-from imageai.Prediction.Custom import CustomImagePrediction
-import os
-
-execution_path = os.getcwd()
-
-prediction = CustomImagePrediction()
-prediction.setModelTypeAsResNet()
-prediction.setModelPath(os.path.join(execution_path, "idenprof_resnet.h5")) # Download the model via this link https://github.com/OlafenwaMoses/ImageAI/releases/tag/models-v3
-prediction.setJsonPath(os.path.join(execution_path, "idenprof.json"))
-prediction.loadModel(num_objects=10)
-
-predictions, probabilities = prediction.predictImage(os.path.join(execution_path, "9.jpg"), result_count=5)
-
-for eachPrediction, eachProbability in zip(predictions, probabilities):
-    print(eachPrediction , " : " , eachProbability)
+version https://git-lfs.github.com/spec/v1
+oid sha256:73163f1508a40189a1f52595f172c01a2c023a2dd2d76bce761e5a37001dbbea
+size 687

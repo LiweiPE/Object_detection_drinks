@@ -1,8 +1,3 @@
-from imageai.Prediction.Custom import ModelTraining
-import os
-
-trainer = ModelTraining()
-trainer.setModelTypeAsDenseNet()
-trainer.setDataDirectory("idenprof")
-trainer.trainModel(num_objects=10, num_experiments=50, enhance_data=True, batch_size=8, show_network_summary=True, continue_from_model="idenprof_densenet-0.763500.h5") # Download the model via this link https://github.com/OlafenwaMoses/ImageAI/releases/tag/models-v3
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c655ca23ce206c08de49a37f0cb9f1df590f9734dbab91399f8eccfc8f54835e
+size 427

@@ -1,16 +1,3 @@
-from imageai.Detection import VideoObjectDetection
-import os
-
-execution_path = os.getcwd()
-
-detector = VideoObjectDetection()
-detector.setModelTypeAsYOLOv3()
-detector.setModelPath( os.path.join(execution_path , "yolo.h5")) # Download the model via this link https://github.com/OlafenwaMoses/ImageAI/releases/tag/1.0
-detector.loadModel()
-
-custom = detector.CustomObjects(person=True, motorcycle=True, bus=True)
-
-video_path = detector.detectCustomObjectsFromVideo(custom_objects=custom, input_file_path=os.path.join(execution_path, "traffic.mp4"),
-                                output_file_path=os.path.join(execution_path, "traffic_detected_custom")
-                                , frames_per_second=20, log_progress=True)
-print(video_path)
+version https://git-lfs.github.com/spec/v1
+oid sha256:03e5a2ca44dac1bd05bc56ce96bd28a752e088ecd490513f8fb07970a1c57c32
+size 743

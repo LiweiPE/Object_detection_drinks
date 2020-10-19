@@ -1,7 +1,3 @@
-from imageai.Prediction.Custom import ModelTraining
-import os
-
-trainer = ModelTraining()
-trainer.setModelTypeAsResNet()
-trainer.setDataDirectory("idenprof")
-trainer.trainModel(num_objects=10, num_experiments=50, enhance_data=True, batch_size=16, show_network_summary=True,transfer_from_model="resnet50_weights_tf_dim_ordering_tf_kernels.h5", initial_num_objects=1000) # Download the model via this link https://github.com/OlafenwaMoses/ImageAI/releases/tag/models-v3
+version https://git-lfs.github.com/spec/v1
+oid sha256:63e20e3d27f15be99f8d6ec37c4d58393ee20d0d35122a452de78a89ebebc9ab
+size 467
