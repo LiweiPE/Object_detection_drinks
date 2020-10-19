@@ -61,7 +61,14 @@ video_detector.detectObjectsFromVideo(input_file_path="01é¡æƒ°î—Šé
 ```
 ### Images samples detection
 
+Single object: Orange juice 500ml
 ![alt text](https://github.com/LiweiPE/Object_detection_drinks/blob/main/Images_detected/orange_juice.jpg)
+![alt text](https://github.com/LiweiPE/Object_detection_drinks/blob/main/Images_detected/orange_juice_detected.jpg)
+
+
+Multiple object: Pepsi 500ml, Cucumber soda 500ml, Water 500ml
+![alt text](https://github.com/LiweiPE/Object_detection_drinks/blob/main/Images_detected/multiple_test.jpg)
+![alt text](https://github.com/LiweiPE/Object_detection_drinks/blob/main/Images_detected/multiple_test_detection.jpg)
 
 ### Citation
 @misc {ImageAI,
