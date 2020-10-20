@@ -70,6 +70,9 @@ Multiple object: Pepsi 500ml, Cucumber soda 500ml, Water 500ml
 ![alt text](https://github.com/LiweiPE/Object_detection_drinks/blob/main/Images_detected/multiple_test.jpg)
 ![alt text](https://github.com/LiweiPE/Object_detection_drinks/blob/main/Images_detected/multiple_test_detection.jpg)
 
+Video detection: Pepsi 500ml
+![alt text](https://github.com/LiweiPE/Object_detection_drinks/blob/main/pepsi500ml.gif)
+
 ### Citation
 @misc {ImageAI,
     author = "Moses and John Olafenwa",
